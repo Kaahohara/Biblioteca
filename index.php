@@ -128,7 +128,7 @@
         <div class='row'>
            
             <?php
-            session_Start();
+            session_start();
             include('conexao.php');
             $seleciona = mysqli_query($con, 'SELECT * FROM livros');
             while ($exibe = mysqli_fetch_assoc($seleciona)) {
@@ -161,7 +161,7 @@
                 
                 echo '
                
-<form action="carrinho.php" method="POST">';
+        <form action="carrinho.php" method="POST">';
              
                 $seleciona = mysqli_query($con, 'SELECT * FROM livros');
                 while ($exibe = mysqli_fetch_assoc($seleciona)) {
