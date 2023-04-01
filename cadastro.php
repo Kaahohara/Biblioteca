@@ -17,13 +17,13 @@ include('conexao.php');
         <center>
             <?php
             if(isset($_POST['enviar'])){
-                $login = mysqli_query($con, 'SELECT * FROM usuarios WHERE Email="' . $_POST['email'] . '"');
+                $login = mysqli_query($con, 'SELECT * FROM usuario WHERE login="' . $_POST['email'] . '"');
                        if (empty(mysqli_num_rows($login))) {
-                        $insere=mysqli_query($con,'INSERT INTO Usuarios(Nome, Email,Senha) VALUE ("'.$_POST['nome'].'","'.$_POST['email'].'","'.MD5($_POST['Senha']).'")');
-                        if($insere){
+                       
+                            $cadastro= mysqli_query($con, 'INSERT INTO usuario (login,senha) VALUES("' . $_POST['email'] . '","'.MD5($_POST['Senha']).'")');
                             $_SESSION['login']=$_POST['email'];
                             header ("Location: index.php");
-                        }
+                       
             
                 }else{
                     echo 'Este login já foi cadastrado<br>';

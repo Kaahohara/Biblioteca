@@ -101,14 +101,15 @@
         </li>
         <li class="nav-item">
         <?php
-      
-      if (isset($_SESSION['login'])) {
-          echo "<a class='nav-link active' href='logout.php'>Sair</a>";
-      } else {
-          echo "<a class='nav-link active' href='login.php'>Fazer login</a>";
+session_start();
 
-      }
-      ?>
+if (isset($_SESSION['login'])) {
+    echo "<a class='nav-link active' href='logout.php'>Sair</a>";
+} else {
+    echo "<a class='nav-link active' href='login.php'>Fazer login</a>";
+
+}
+?>
      </li>
       </ul>
     </div>
@@ -121,7 +122,7 @@
         <div class='row'>
            
             <?php
-            session_start();
+          
             include('conexao.php');
             $seleciona = mysqli_query($con, 'SELECT * FROM livros');
             while ($exibe = mysqli_fetch_assoc($seleciona)) {
@@ -154,7 +155,7 @@
                 
                 echo '
                
-        <form action="carrinho.php" method="POST">';
+        <form action="carrinho_php.php" method="POST">';
              
                 $seleciona = mysqli_query($con, 'SELECT * FROM livros');
                 while ($exibe = mysqli_fetch_assoc($seleciona)) {

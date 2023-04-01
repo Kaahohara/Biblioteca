@@ -15,7 +15,7 @@ include('conexao.php');
         <div class='card' style='border-color:#c0c0c0;color:#fff;background-color:#4e2026;margin-left:auto;margin-right:auto;position relative;width:400px;height:60%;'>
        <?php
        if(isset($_POST['logar'])){
-        $login = mysqli_query($con, 'SELECT * FROM usuarios WHERE Email="' . $_POST['email'] . '"AND Senha="'.MD5($_POST['Senha']).'"');
+        $login = mysqli_query($con, 'SELECT * FROM usuario WHERE login="' . $_POST['email'] . '"AND senha="'.MD5($_POST['Senha']).'"');
          if (empty(mysqli_num_rows($login))) {
             echo '<center>Algo deu errado</center>';
         } else {
