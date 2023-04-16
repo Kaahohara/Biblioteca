@@ -7,7 +7,7 @@ O sistema também conta com uma área de login, onde o usuário pode criar uma c
 
 Além disso, o sistema possui uma área específica para os administradores da biblioteca, que podem gerenciar os cadastros de livros, usuários, reservas e empréstimos. Os administradores podem cadastrar novos livros, verificar as reservas pendentes e gerenciar o estoque da biblioteca.
 
-O sistema é responsivo e utiliza CSS para garantir uma experiência de usuário consistente em diferentes dispositivos e tamanhos de tela. Além disso, o código foi desenvolvido seguindo boas práticas de programação, com a utilização de padrões de projeto, documentação e testes automatizados para garantir a qualidade do software.
+O sistema é responsivo e utiliza CSS para garantir uma experiência de usuário consistente em diferentes dispositivos e tamanhos de tela.
 
 A implementação do projeto envolveu a criação de um banco de dados em SQL para armazenar informações sobre os livros, usuários, reservas e empréstimos. A linguagem PHP foi utilizada para implementar as funcionalidades de agendamento, cadastro de usuários, login, gerenciamento de cadastros e outras funcionalidades do sistema.
 
