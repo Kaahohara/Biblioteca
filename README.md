@@ -1,14 +1,14 @@
-# Biblioteca
-O projeto consiste em um sistema de agendamento de livros online que permite que os usuários façam reserva de livros em uma biblioteca virtual. O sistema foi desenvolvido utilizando as tecnologias PHP, SQL e CSS.
+# library
+The project consists of an online book reservation system that allows users to reserve books in a virtual library. The system was developed using PHP, SQL, and CSS technologies.
 
-A plataforma permite que o usuário visualize o acervo de livros disponíveis, incluindo informações sobre título, autor e disponibilidade. O usuário pode selecionar o livro desejado e escolher a data e horário para retirada e devolução do mesmo.
+The platform allows users to view the available book collection, including information about the title, author, and availability. Users can select the desired book and choose the date and time for pick-up and return.
 
-O sistema também conta com uma área de login, onde o usuário pode criar uma conta para gerenciar seus agendamentos, histórico de empréstimos e reservas pendentes. A segurança é garantida através da criptografia de senhas e medidas de proteção contra ataques de SQL Injection.
+The system also features a login area, where users can create an account to manage their bookings, loan history, and pending reservations. Security is ensured through password encryption and protection measures against SQL Injection attacks.
 
-Além disso, o sistema possui uma área específica para os administradores da biblioteca, que podem gerenciar os cadastros de livros, usuários, reservas e empréstimos. Os administradores podem cadastrar novos livros, verificar as reservas pendentes e gerenciar o estoque da biblioteca.
+Additionally, the system has a specific area for library administrators, who can manage the registration of books, users, reservations, and loans. Administrators can add new books, check pending reservations, and manage the library's inventory.
 
-O sistema é responsivo e utiliza CSS para garantir uma experiência de usuário consistente em diferentes dispositivos e tamanhos de tela.
+The system is responsive and uses CSS to ensure a consistent user experience across different devices and screen sizes.
 
-A implementação do projeto envolveu a criação de um banco de dados em SQL para armazenar informações sobre os livros, usuários, reservas e empréstimos. A linguagem PHP foi utilizada para implementar as funcionalidades de agendamento, cadastro de usuários, login, gerenciamento de cadastros e outras funcionalidades do sistema.
+The implementation of the project involved creating an SQL database to store information about books, users, reservations, and loans. The PHP language was used to implement the booking functionality, user registration, login, registration management, and other system features.
 
-Em resumo, este projeto oferece aos usuários uma maneira simples e eficiente de fazer reservas de livros em uma biblioteca virtual, enquanto permite aos administradores gerenciar os cadastros de livros, usuários, reservas e empréstimos, utilizando as tecnologias PHP, SQL e CSS para garantir segurança, qualidade e uma experiência de usuário agradável.
+In summary, this project offers users a simple and efficient way to make book reservations in a virtual library, while allowing administrators to manage book, user, reservation, and loan registrations using PHP, SQL, and CSS technologies to ensure security, quality, and a pleasant user experience.
